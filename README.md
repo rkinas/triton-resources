@@ -21,8 +21,8 @@
 - [Flash Attention derived and coded from first principles with Triton (Python)](https://www.youtube.com/watch?v=zy8ChVd_oTM)
 
 # Triton-Puzzles
--[To solve](https://github.com/srush/Triton-Puzzles)
--[Solved](https://github.com/alexzhang13/Triton-Puzzles-Solutions/blob/main/Triton_Puzzles_Solutions_alexzhang13.ipynb)
+- [To solve](https://github.com/srush/Triton-Puzzles)
+- [Solved](https://github.com/alexzhang13/Triton-Puzzles-Solutions/blob/main/Triton_Puzzles_Solutions_alexzhang13.ipynb)
 
 # Triton Tools
 - [Triton profiler](https://github.com/triton-lang/triton/tree/c5a14cc00598014b303eebac831f19e8a66e9e1d/third_party/proton)
