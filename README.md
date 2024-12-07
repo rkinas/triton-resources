@@ -16,7 +16,7 @@
 - [Lecture 14: Practitioners Guide to Triton](https://www.youtube.com/watch?v=DdTsX6DQk24)
 - [Lecture 29: Triton Internals](https://www.youtube.com/watch?v=njgow_zaJMw)
 - [Intro to Triton: Coding Softmax in PyTorch](https://www.youtube.com/watch?v=gyKBN1rnefI)
-- [Triton Vector Addition Kernel, part 1: Making the Shift to Parallel Programming]https://www.youtube.com/watch?v=MEZ7XhzTLEg&t()
+- [Triton Vector Addition Kernel, part 1: Making the Shift to Parallel Programming](https://www.youtube.com/watch?v=MEZ7XhzTLEg&t()
 - [Tiled Matrix Multiplication in Triton - part 1](https://www.youtube.com/watch?v=OnZEBBJvWLU)
 - [Flash Attention derived and coded from first principles with Triton (Python)](https://www.youtube.com/watch?v=zy8ChVd_oTM)
 
