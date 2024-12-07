@@ -42,9 +42,13 @@ Catch up on the latest advancements from Triton Conferences:
 
 ## Sample Kernels
 Explore practical implementations with these sample kernels:
+- [attorch is a subset of PyTorch's nn module, written purely in Python using OpenAI's Triton](https://github.com/BobMcDear/attorch)
+- [FlagGems is a high-performance general operator library implemented in OpenAI Triton. It aims to provide a suite of kernel functions to accelerate LLM training and inference.](https://github.com/FlagOpen/FlagGems)
+- [Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable.](https://github.com/ELS-RD/kernl)
 - [Linger-Kernel](https://github.com/linkedin/Liger-Kernel)
 - [Triton Kernels for Efficient Low-Bit Matrix Multiplication](https://github.com/mobiusml/gemlite)
 - [Unsloth Kernels](https://github.com/unslothai/unsloth/tree/main/unsloth/kernels)
+- [This is attempt at implementing a Triton kernel for GPTQ inference. This code is based on the GPTQ-for-LLaMa codebase, which is itself based on the GPTQ codebase.](https://github.com/fpgaminer/GPTQ-triton)
 
 ---
 ### Contribution
