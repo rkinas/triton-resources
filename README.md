@@ -6,8 +6,7 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
-- [Understanding the Triton Tutorials Part 1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c)
-- [Understanding the Triton Tutorials Part 2](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7)
+- Understanding the Triton Tutorials [Part 1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) and [Part 2](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7)
 - [Accelerating AI with Triton: A Deep Dive into Writing High-Performance GPU Code](https://medium.com/@nijesh-kanjinghat/accelerating-ai-with-triton-a-deep-dive-into-writing-high-performance-gpu-code-a1e4d66556cc)
 - [Triton Tutorial #2](https://medium.com/@sherlockliao01/triton-tutorial-2-5de66cd2170d)
 - [Triton: OpenAI’s Innovative Programming Language for Custom Deep-Learning Primitives](https://blog.devgenius.io/triton-openais-innovative-programming-language-for-custom-deep-learning-primitives-485723b0b49)
