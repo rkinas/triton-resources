@@ -11,6 +11,8 @@ Gain deeper insights into Triton through these detailed articles:
 - [Triton Tutorial #2](https://medium.com/@sherlockliao01/triton-tutorial-2-5de66cd2170d)
 - [Triton: OpenAI’s Innovative Programming Language for Custom Deep-Learning Primitives](https://blog.devgenius.io/triton-openais-innovative-programming-language-for-custom-deep-learning-primitives-485723b0b49)
 - [Triton Kernel Compilation Stages](https://pytorch.org/blog/triton-kernel-compilation-stages/)
+- Deep Dive into Triton Internals [Part 1](https://www.kapilsharma.dev/posts/deep-dive-into-triton-internals/), [Part 2](https://www.kapilsharma.dev/posts/deep-dive-into-triton-internals-2/) and [Part 3](https://www.kapilsharma.dev/posts/deep-dive-into-triton-internals-3/)
+- [Exploring Triton GPU programming for neural networks in Java](https://openjdk.org/projects/babylon/articles/triton)
 
 ## Research Papers
 Explore the academic foundation of Triton:
@@ -49,6 +51,7 @@ Explore practical implementations with these sample kernels:
 - [Triton Kernels for Efficient Low-Bit Matrix Multiplication](https://github.com/mobiusml/gemlite)
 - [Unsloth Kernels](https://github.com/unslothai/unsloth/tree/main/unsloth/kernels)
 - [This is attempt at implementing a Triton kernel for GPTQ inference. This code is based on the GPTQ-for-LLaMa codebase, which is itself based on the GPTQ codebase.](https://github.com/fpgaminer/GPTQ-triton)
+- [triton-index - Catalog openly available Triton kernels](https://github.com/gpu-mode/triton-index)
 
 ---
 ### Contribution
