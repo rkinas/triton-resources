@@ -1,3 +1,5 @@
+<div align="center"><img src="./assets/triton.png" alt="Triton" width="150" height="150"></div>div>
+
 # Triton OpenAI
 A curated list of resources for learning and exploring Triton, OpenAI's programming language for writing efficient GPU code.
 
