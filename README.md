@@ -73,4 +73,4 @@ Feel free to contribute more resources or suggest updates by opening a pull requ
 
 ---
 ### License
-This resource list is open-sourced under the MIT license. For more details, refer to the `LICENSE` file in the repository.
+This resource list is open-sourced under the MIT license. 
