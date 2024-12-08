@@ -19,7 +19,6 @@ Gain deeper insights into Triton through these detailed articles:
 - [Using User-Defined Triton Kernels with torch.compile](https://pytorch.org/tutorials/recipes/torch_compile_user_defined_triton_kernel_tutorial.html)
 - [Mamba: The Hard Way](https://srush.github.io/annotated-mamba/hard.html)
 
-
 ## Research Papers
 Explore the academic foundation of Triton:
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf)
@@ -64,7 +63,10 @@ Explore practical implementations with these sample kernels:
 - [Variety of Triton and CUDA kernels for training and inference](https://github.com/pytorch-labs/applied-ai)
 - [EquiTriton is a project that seeks to implement high-performance kernels for commonly used building blocks in equivariant neural networks, enabling compute efficient training and inference](https://github.com/IntelLabs/EquiTriton)
 - [Expanded collection of Neural Network activation functions and other function kernels in Triton by OpenAI.](https://github.com/dtunai/triton-activations)
+- [Fused kernels](https://github.com/kapilsh/cuda-mode-lecture)
 
+## Triton communities
+- [CUDA-MODE](https://discord.gg/gpumode)
 ---
 ### Contribution
 Feel free to contribute more resources or suggest updates by opening a pull request or issue in this repository.
