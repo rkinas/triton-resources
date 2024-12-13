@@ -32,6 +32,10 @@ Learn by watching these informative videos:
 - [Tiled Matrix Multiplication in Triton - part 1](https://www.youtube.com/watch?v=OnZEBBJvWLU)
 - [Flash Attention derived and coded from first principles with Triton (Python)](https://www.youtube.com/watch?v=zy8ChVd_oTM)
 
+## Triton community meetup
+Watch Triton community meetups to be up to date with Triton recent topics.
+- [2024-11-09](https://youtu.be/N0eiYLWyNpc?si=n9T-X-0UaK3j1fXQ)
+
 ## Triton-Puzzles
 Challenge yourself with these engaging puzzles:
 - [To Solve](https://github.com/srush/Triton-Puzzles)
