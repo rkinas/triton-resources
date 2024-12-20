@@ -68,6 +68,7 @@ Explore practical implementations with these sample kernels:
 - [EquiTriton is a project that seeks to implement high-performance kernels for commonly used building blocks in equivariant neural networks, enabling compute efficient training and inference](https://github.com/IntelLabs/EquiTriton)
 - [Expanded collection of Neural Network activation functions and other function kernels in Triton by OpenAI.](https://github.com/dtunai/triton-activations)
 - [Fused kernels](https://github.com/kapilsh/cuda-mode-lecture)
+- [Triton activations](https://github.com/dtunai/triton-activations/tree/main) only feed forward
 
 ## Triton communities
 - [CUDA-MODE](https://discord.gg/gpumode)
