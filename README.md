@@ -70,6 +70,12 @@ Explore practical implementations with these sample kernels:
 - [Fused kernels](https://github.com/kapilsh/cuda-mode-lecture)
 - [Triton activations](https://github.com/dtunai/triton-activations/tree/main) only feed forward
 
+## Triton integrations 
+- [jax-triton](https://github.com/jax-ml/jax-triton)
+
+## Triton backends
+- [Intel® XPU Backend for Triton](https://github.com/intel/intel-xpu-backend-for-triton)
+
 ## Triton communities
 - [CUDA-MODE](https://discord.gg/gpumode)
 ---
