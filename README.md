@@ -18,6 +18,9 @@ Gain deeper insights into Triton through these detailed articles:
 - [Exploring Triton GPU programming for neural networks in Java](https://openjdk.org/projects/babylon/articles/triton)
 - [Using User-Defined Triton Kernels with torch.compile](https://pytorch.org/tutorials/recipes/torch_compile_user_defined_triton_kernel_tutorial.html)
 - [Mamba: The Hard Way](https://srush.github.io/annotated-mamba/hard.html)
+- FP8: [Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton](https://pytorch.org/blog/accelerating-gemms-triton/)
+- FP8: [Deep Dive on CUTLASS Ping-Pong GEMM Kernel](https://pytorch.org/blog/cutlass-ping-pong-gemm-kernel/)
+- FP8: [Deep Dive on the Hopper TMA Unit for FP8 GEMMs](https://pytorch.org/blog/hopper-tma-unit/)
 
 ## Research Papers
 Explore the academic foundation of Triton:
