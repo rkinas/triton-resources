@@ -21,6 +21,8 @@ Gain deeper insights into Triton through these detailed articles:
 - FP8: [Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton](https://pytorch.org/blog/accelerating-gemms-triton/)
 - FP8: [Deep Dive on CUTLASS Ping-Pong GEMM Kernel](https://pytorch.org/blog/cutlass-ping-pong-gemm-kernel/)
 - FP8: [Deep Dive on the Hopper TMA Unit for FP8 GEMMs](https://pytorch.org/blog/hopper-tma-unit/)
+- [Technical Review on PyTorch2.0 and Triton](https://www.jokeren.tech/slides/Triton_bsc.pdf)
+- [Towards Agile Development of Efficient Deep Learning Operators](https://www.jokeren.tech/slides/triton_intel.pdf)
 
 ## Research Papers
 Explore the academic foundation of Triton:
@@ -72,6 +74,7 @@ Explore practical implementations with these sample kernels:
 - [Expanded collection of Neural Network activation functions and other function kernels in Triton by OpenAI.](https://github.com/dtunai/triton-activations)
 - [Fused kernels](https://github.com/kapilsh/cuda-mode-lecture)
 - [Triton activations](https://github.com/dtunai/triton-activations/tree/main) only feed forward
+- [LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance](https://github.com/ModelTC/lightllm/tree/main/lightllm/common/basemodel/triton_kernel)
 
 ## Triton integrations 
 - [jax-triton](https://github.com/jax-ml/jax-triton)
