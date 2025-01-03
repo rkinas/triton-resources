@@ -9,6 +9,7 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
 - Understanding the Triton Tutorials [Part 1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) and [Part 2](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7)
+- [Softmax in OpenAI Triton](http://blog.nagi.fun/triton-intro-softmax) -> more detailed Fused Softmax Triton example explanation (step-by-step)  
 - [Accelerating AI with Triton: A Deep Dive into Writing High-Performance GPU Code](https://medium.com/@nijesh-kanjinghat/accelerating-ai-with-triton-a-deep-dive-into-writing-high-performance-gpu-code-a1e4d66556cc)
 - [Accelerating Triton Dequantization Kernels for GPTQ](https://pytorch.org/blog/accelerating-triton/)
 - [Triton Tutorial #2](https://medium.com/@sherlockliao01/triton-tutorial-2-5de66cd2170d)
@@ -23,6 +24,7 @@ Gain deeper insights into Triton through these detailed articles:
 - FP8: [Deep Dive on the Hopper TMA Unit for FP8 GEMMs](https://pytorch.org/blog/hopper-tma-unit/)
 - [Technical Review on PyTorch2.0 and Triton](https://www.jokeren.tech/slides/Triton_bsc.pdf)
 - [Towards Agile Development of Efficient Deep Learning Operators](https://www.jokeren.tech/slides/triton_intel.pdf)
+- [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
 
 ## Research Papers
 Explore the academic foundation of Triton:
@@ -48,7 +50,7 @@ Challenge yourself with these engaging puzzles:
 
 ## Tools
 Enhance your Triton development workflow with these tools:
-- [Triton Profiler](https://github.com/triton-lang/triton/tree/c5a14cc00598014b303eebac831f19e8a66e9e1d/third_party/proton)
+- [Triton Profiler](https://github.com/triton-lang/triton/tree/c5a14cc00598014b303eebac831f19e8a66e9e1d/third_party/proton) and video explaining how to use it [Dev Tools: Proton/Interpreter](https://www.youtube.com/watch?v=Av1za_0o2Qs)
 - [Triton-Viz: A Visualization Toolkit for Programming with Triton](https://github.com/Deep-Learning-Profiling-Tools/triton-viz)
 - [Make Triton easier - Triton-util provides simple higher-level abstractions for frequent but repetitive tasks. This allows you to write code that is closer to how you actually think.](https://github.com/UmerHA/triton_util/tree/main)
 - [TritonBench is a collection of PyTorch operators used to evaluation the performance of Triton, and its integration with PyTorch.](https://github.com/pytorch-labs/tritonbench)
