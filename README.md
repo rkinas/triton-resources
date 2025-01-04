@@ -87,6 +87,16 @@ Explore practical implementations with these sample kernels:
 ## Triton communities
 - [CUDA-MODE](https://discord.gg/gpumode)
 ---
+
+## Triton Kernel Index
+
+| Kernel     | Description                                  | Resource          |
+|------------|----------------------------------------------|-------------------|
+| vectorAdd  | A kernel for performing vector addition.     | Triton Docs Link  |
+| matmul     | Optimized kernel for matrix multiplication.  | Blog Post Example |
+| softmax    | Experimental kernel for softmax operations. | GitHub Repository |
+
+
 ### Contribution
 Feel free to contribute more resources or suggest updates by opening a pull request or issue in this repository.
 
