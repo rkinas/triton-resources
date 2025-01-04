@@ -92,9 +92,9 @@ Explore practical implementations with these sample kernels:
 
 | Kernel     | Description                                  | Resource          |
 |------------|----------------------------------------------|-------------------|
-| vectorAdd  | A kernel for performing vector addition.     | Triton Docs Link  |
-| matmul     | Optimized kernel for matrix multiplication.  | Blog Post Example |
-| softmax    | Experimental kernel for softmax operations. | GitHub Repository |
+| vectorAdd  | A kernel for performing vector addition.     | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) |
+| matmul     | Optimized kernel for matrix multiplication.  | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) |
+| softmax    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) [2](http://blog.nagi.fun/triton-intro-softmax) |
 
 
 ### Contribution
