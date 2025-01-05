@@ -98,6 +98,7 @@ Explore practical implementations with these sample kernels:
 | dropout    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/04-low-memory-dropout.html#sphx-glr-getting-started-tutorials-04-low-memory-dropout-py) |
 | Layer Normalization    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/05-layer-norm.html#sphx-glr-getting-started-tutorials-05-layer-norm-py) |
 | Fused Attention    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/06-fused-attention.html#sphx-glr-getting-started-tutorials-06-fused-attention-py) |
+| Qunatization    | Experimental kernel for softmax operations. | [AutoGPTQ](https://github.com/foundation-model-stack/foundation-model-stack/tree/triton/triton/kernels) |
 
 
 ### Contribution
