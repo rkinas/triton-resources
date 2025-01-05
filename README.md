@@ -93,11 +93,11 @@ Explore practical implementations with these sample kernels:
 | Kernel     | Description                                  | Resource          |
 |------------|----------------------------------------------|-------------------|
 | vectorAdd  | A kernel for performing vector addition.     | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) [2](https://triton-lang.org/main/getting-started/tutorials/01-vector-add.html#sphx-glr-getting-started-tutorials-01-vector-add-py) |
-| matmul     | Optimized kernel for matrix multiplication.  | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) |
+| matmul     | Optimized kernel for matrix multiplication.  | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) [2](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html#sphx-glr-getting-started-tutorials-03-matrix-multiplication-py) [Grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html#sphx-glr-getting-started-tutorials-08-grouped-gemm-py)|
 | softmax    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) [2](http://blog.nagi.fun/triton-intro-softmax) [3](https://triton-lang.org/main/getting-started/tutorials/02-fused-softmax.html#sphx-glr-getting-started-tutorials-02-fused-softmax-py) |
-| dropout    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) |
-| Layer Normalization    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) |
-| Fused Attention    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) |
+| dropout    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/04-low-memory-dropout.html#sphx-glr-getting-started-tutorials-04-low-memory-dropout-py) |
+| Layer Normalization    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/05-layer-norm.html#sphx-glr-getting-started-tutorials-05-layer-norm-py) |
+| Fused Attention    | Experimental kernel for softmax operations. | [1](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7) [2](https://triton-lang.org/main/getting-started/tutorials/06-fused-attention.html#sphx-glr-getting-started-tutorials-06-fused-attention-py) |
 
 
 ### Contribution
