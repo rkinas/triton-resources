@@ -102,6 +102,11 @@ Explore practical implementations with these sample kernels:
 | **Conv2d**           | A kernel for 2D convolution, a fundamental operation in computer vision tasks such as image classification or object detection.             | [1](https://github.com/BobMcDear/attorch/blob/main/attorch/conv_kernels.py)                                                                                                                |
 | **MultiheadAttention** | A kernel for multi-head attention, a crucial component in transformer-based models for capturing complex relationships in data.            | [1](https://github.com/BobMcDear/attorch/blob/main/attorch/multi_head_attention_kernels.py)                                                                                                |
 | **Hardsigmoid**      | A kernel for the Hardsigmoid activation function, an efficient approximation of the sigmoid function used in certain neural network layers. | [1](https://github.com/BobMcDear/attorch/blob/main/attorch/act_kernels.py)                                                                                                                |
+| **GELU**      | A kernel for the Hardsigmoid activation function, an efficient approximation of the sigmoid function used in certain neural network layers. | [1](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)                                                                                                                |
+
+
+| **GEGLU**      | A kernel for the Hardsigmoid activation function, an efficient approximation of the sigmoid function used in certain neural network layers. | [1](https://github.com/linkedin/Liger-Kernel/blob/main/src/liger_kernel/ops/geglu.py)                                                                                                                |
+
 
 
 
