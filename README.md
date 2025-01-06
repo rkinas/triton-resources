@@ -50,6 +50,7 @@ Challenge yourself with these engaging puzzles:
 
 ## Tools
 Enhance your Triton development workflow with these tools:
+- [Triton Deja-vu](https://github.com/IBM/triton-dejavu) Framework to reduce autotune overhead of triton-lang to zero for well known deployments. This small framework is based on the Triton autotuner and contributes two features to the Triton community: 1. store and safely restore autotuner states using JSON files, 2. ConfigSpaces to explore a defined space exhaustively. Additionally, it allows to use heuristics in combination with the autotuner.
 - [Triton Profiler](https://github.com/triton-lang/triton/tree/c5a14cc00598014b303eebac831f19e8a66e9e1d/third_party/proton) and video explaining how to use it [Dev Tools: Proton/Interpreter](https://www.youtube.com/watch?v=Av1za_0o2Qs)
 - [Triton-Viz: A Visualization Toolkit for Programming with Triton](https://github.com/Deep-Learning-Profiling-Tools/triton-viz)
 - [Make Triton easier - Triton-util provides simple higher-level abstractions for frequent but repetitive tasks. This allows you to write code that is closer to how you actually think.](https://github.com/UmerHA/triton_util/tree/main)
