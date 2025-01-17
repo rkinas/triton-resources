@@ -6,6 +6,9 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 ## Official Documentation
 - [Official Triton Documentation](https://triton-lang.org/main/index.html)
 
+## Triton features (only new one)
+- [Automatic Warp Specialization Optimization](https://github.com/triton-lang/triton/pull/5622)
+
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
 - Understanding the Triton Tutorials [Part 1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) and [Part 2](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7)
