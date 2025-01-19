@@ -28,6 +28,7 @@ Gain deeper insights into Triton through these detailed articles:
 - [Technical Review on PyTorch2.0 and Triton](https://www.jokeren.tech/slides/Triton_bsc.pdf)
 - [Towards Agile Development of Efficient Deep Learning Operators](https://www.jokeren.tech/slides/triton_intel.pdf)
 - [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
+- [CUDA-Free Inference for LLMs](https://pytorch.org/blog/cuda-free-inference-for-llms/)
 
 ## Research Papers
 Explore the academic foundation of Triton:
