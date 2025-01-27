@@ -83,6 +83,7 @@ Explore practical implementations with these sample kernels:
 - [Triton activations](https://github.com/dtunai/triton-activations/tree/main) only feed forward
 - [LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance](https://github.com/ModelTC/lightllm/tree/main/lightllm/common/basemodel/triton_kernel)
 - [Bitsandbytes - ibrary is a lightweight Python wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and 8 & 4-bit quantization functions](https://github.com/bitsandbytes-foundation/bitsandbytes/tree/main/bitsandbytes/triton)
+- [MInference Triton Kernels - FlashAttention ](https://github.com/microsoft/MInference)
   
 ## Triton integrations 
 - [jax-triton](https://github.com/jax-ml/jax-triton)
