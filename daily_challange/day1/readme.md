@@ -152,5 +152,3 @@ if __name__ == '__main__':
 This example demonstrates a minimal Triton kernel for vector addition. Triton allows you to write custom GPU kernels in Python with a syntax similar to CUDA, enabling you to optimize performance-critical operations. The comparison with PyTorch’s built-in vector addition shows that custom kernels can be both simple to write and produce correct results.
 
 Feel free to clone this repository, experiment with different block sizes, and extend this example to more complex operations.
-
-Happy coding!
