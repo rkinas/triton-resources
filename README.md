@@ -12,10 +12,18 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 ## My daily challange (Triton day by day)
 This project is a step-by-step learning journey where we implement various types of Triton kernels—from the simplest examples to more advanced applications—while exploring GPU programming with Triton.
 The goal of this repository is to help you (and others) get comfortable with Triton by:
-- **Starting Simple:** Begin with basic kernels such as vector addition, and understand the building blocks of writing GPU code with Triton.
-- **Incremental Learning:** Each day introduces a new challenge, progressively covering more complex topics, techniques, and optimizations.
-- **Hands-On Experience:** Code, test, and benchmark your kernels against standard implementations (e.g., PyTorch) to see performance improvements and better understand GPU behavior.
-- **Community and Collaboration:** Share your solutions, insights, and improvements with the community. Learn from the code reviews and discussions around each daily challenge.
+- **Starting simple:** begin with basic kernels such as vector addition, and understand the building blocks of writing GPU code with Triton.
+- **Incremental learning:** each day introduces a new challenge, progressively covering more complex topics, techniques, and optimizations.
+- **Hands-on experience:** code, test, and benchmark your kernels against standard implementations (e.g., PyTorch) to see performance improvements and better understand GPU behavior.
+
+**Daily challenges:** every day, a new challenge is posted in this repository. Each challenge focuses on a specific aspect of Triton, such as:
+  - Basic operations (e.g., vector addition)
+  - Memory management and optimizations
+  - Advanced indexing and dynamic shapes
+  - Multi-dimensional kernels
+  - Reduction operations and more
+- **Detailed explanations:** each kernel comes with an in-depth explanation of the code, helping you understand the concepts behind the implementation.
+- **Benchmarking and stress tests:** learn how to measure performance by comparing custom Triton kernels with standard PyTorch implementations. Get hands-on experience with benchmarking on real-world GPU workloads.
     
 | Day                 |  Kernel              | Description                |
 |---------------------|----------------------|----------------------------|
