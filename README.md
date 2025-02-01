@@ -10,6 +10,13 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 - [Automatic Warp Specialization Optimization](https://github.com/triton-lang/triton/pull/5622)
 
 ## My daily challange (Triton day by day)
+This project is a step-by-step learning journey where we implement various types of Triton kernels—from the simplest examples to more advanced applications—while exploring GPU programming with Triton.
+The goal of this repository is to help you (and others) get comfortable with Triton by:
+- **Starting Simple:** Begin with basic kernels such as vector addition, and understand the building blocks of writing GPU code with Triton.
+- **Incremental Learning:** Each day introduces a new challenge, progressively covering more complex topics, techniques, and optimizations.
+- **Hands-On Experience:** Code, test, and benchmark your kernels against standard implementations (e.g., PyTorch) to see performance improvements and better understand GPU behavior.
+- **Community and Collaboration:** Share your solutions, insights, and improvements with the community. Learn from the code reviews and discussions around each daily challenge.
+    
 | Day                 |  Kernel              | Description                |
 |---------------------|----------------------|----------------------------|
 | 2025-02-01          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Add two vectors A and B and check with Pytorch implementation. |
