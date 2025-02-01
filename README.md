@@ -9,6 +9,11 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 ## Triton features (only new one)
 - [Automatic Warp Specialization Optimization](https://github.com/triton-lang/triton/pull/5622)
 
+## My daily challange (Triton day by day)
+| Day                 |  Kernel              | Description                |
+|---------------------|----------------------|----------------------------|
+| 2025-02-01          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Add two vectors A and B and check with Pytorch implementation. |
+
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
 - Understanding the Triton Tutorials [Part 1](https://isamu-website.medium.com/understanding-the-triton-tutorials-part-1-6191b59ba4c) and [Part 2](https://isamu-website.medium.com/understanding-triton-tutorials-part-2-f6839ce50ae7)
