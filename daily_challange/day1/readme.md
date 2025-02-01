@@ -1,7 +1,3 @@
-Below is a complete example of a Triton kernel that adds two vectors element‑wise, along with a comparison to the equivalent PyTorch implementation. You can place the following content into your repository’s `README.md` file.
-
----
-
 # Vector Addition with Triton and PyTorch
 
 This repository contains a simple example of how to add two vectors using a custom GPU kernel written in [Triton](https://github.com/openai/triton) and compares the result to a standard PyTorch implementation. The result of both implementations is the same.
