@@ -27,7 +27,7 @@ The goal of this repository is to help you (and others) get comfortable with Tri
     
 | Day                 |  Kernel              | Description                |
 |---------------------|----------------------|----------------------------|
-| 2025-02-01          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Add two vectors A and B and check with Pytorch implementation. |
+| #1          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Add two vectors A and B and check with Pytorch implementation. |
 
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
