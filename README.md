@@ -6,9 +6,6 @@ A curated list of resources for learning and exploring Triton, OpenAI's programm
 ## Official Documentation
 - [Official Triton Documentation](https://triton-lang.org/main/index.html)
 
-## Triton features (only new one)
-- [Automatic Warp Specialization Optimization](https://github.com/triton-lang/triton/pull/5622)
-
 ## My daily challange (Triton day by day)
 This project is a step-by-step learning journey where we implement various types of Triton kernels—from the simplest examples to more advanced applications—while exploring GPU programming with Triton.
 The goal of this repository is to help you (and others) get comfortable with Triton by:
@@ -133,6 +130,8 @@ Explore practical implementations with these sample kernels:
 | **GeGLU**      | GeGLU | [1](https://github.com/linkedin/Liger-Kernel/blob/main/src/liger_kernel/ops/geglu.py)                                                                                                                |
 | **RMSNorm**      | RMSNorm | [1](https://github.com/linkedin/Liger-Kernel/blob/main/src/liger_kernel/ops/rms_norm.py)                                                                                                                |
 
+## Triton updates, news, new features
+- [Automatic Warp Specialization Optimization](https://github.com/triton-lang/triton/pull/5622)
 
 
 
