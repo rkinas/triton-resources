@@ -1,11 +1,11 @@
-# Vector Addition with Triton and PyTorch
+# Puzzle2: Vector Addition with Triton and PyTorch
 
 This repository contains a simple example of how to add two vectors using a custom GPU kernel written in [Triton](https://github.com/openai/triton) and compares the result to a standard PyTorch implementation. The result of both implementations is the same.
 
 ## Overview
 
-- **Triton Kernel:** A small GPU kernel that divides the input vectors into blocks. Each kernel instance computes the addition for a block of elements.
-- **PyTorch Implementation:** A simple element‑wise addition using PyTorch’s built-in tensor operations.
+- **Triton Kernel:** small GPU kernel that divides the input vectors into blocks. Each kernel instance computes the addition for a block of elements.
+- **PyTorch Implementation:** simple element‑wise addition using PyTorch’s built-in tensor operations.
 
 This example demonstrates how to write a Triton kernel, launch it from Python, and verify that the computed result is identical to that of PyTorch.
 
@@ -114,35 +114,35 @@ if __name__ == '__main__':
 
 ## Code Explanation
 
-### 1. The Triton Kernel (`vector_add_kernel`)
-- **Kernel Signature:**  
-  The kernel receives pointers to the input arrays (`A_ptr` and `B_ptr`), a pointer for the output array (`C_ptr`), the total number of elements (`n_elements`), and a compile-time constant `BLOCK_SIZE`.
+### 1. The Triton kernel (`vector_add_kernel`)
+- **Kernel signature:**  
+  the kernel receives pointers to the input arrays (`A_ptr` and `B_ptr`), a pointer for the output array (`C_ptr`), the total number of elements (`n_elements`), and a compile-time constant `BLOCK_SIZE`.
   
-- **Kernel Indexing:**  
+- **Kernel indexing:**  
   `pid = tl.program_id(0)` retrieves the unique index for the current block. Using this, we compute the starting offsets for each block.
   
-- **Boundary Checking:**  
-  A mask (`mask = offsets < n_elements`) is used to ensure that only valid elements are loaded and stored, which is important when the total number of elements is not a multiple of `BLOCK_SIZE`.
+- **Boundary checking:**  
+  mask (`mask = offsets < n_elements`) is used to ensure that only valid elements are loaded and stored, which is important when the total number of elements is not a multiple of `BLOCK_SIZE`.
   
-- **Memory Operations:**  
-  The `tl.load` function reads elements from memory, and `tl.store` writes the computed result back.
+- **Memory operations:**  
+  the `tl.load` function reads elements from memory, and `tl.store` writes the computed result back.
 
-### 2. Python Wrapper Function (`vector_add_triton`)
+### 2. Python wrapper function (`vector_add_triton`)
 - **Input Validation:**  
   We ensure both input vectors have the same number of elements.
   
-- **Result Tensor:**  
-  An output tensor `C` is allocated with the same shape and device as the input vectors.
+- **Result tensor:**  
+  an output tensor `C` is allocated with the same shape and device as the input vectors.
   
-- **Kernel Launch Configuration:**  
-  The grid is computed using `triton.cdiv(n_elements, meta['BLOCK_SIZE'])` which determines how many blocks are needed.
+- **Kernel launch configuration:**  
+  the grid is computed using `triton.cdiv(n_elements, meta['BLOCK_SIZE'])` which determines how many blocks are needed.
   
-- **Kernel Launch:**  
-  The Triton kernel is launched with the computed grid and the provided parameters.
+- **Kernel launch:**  
+  the Triton kernel is launched with the computed grid and the provided parameters.
 
-### 3. PyTorch Comparison
-- **PyTorch Addition:**  
-  The same vector addition is performed using PyTorch's built-in operator (`A + B`).
+### 3. PyTorch comparison
+- **PyTorch addition:**  
+  the same vector addition is performed using PyTorch's built-in operator (`A + B`).
   
 - **Verification:**  
   `torch.allclose` checks that the results from both methods are nearly identical.
