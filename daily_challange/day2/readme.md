@@ -1,10 +1,10 @@
-# Vector Addition with Triton and PyTorch (with Benchmarking)
+# Puzzle3: Vector Addition with Triton and PyTorch (with Benchmarking)
 
 This repository demonstrates how to add two vectors element‑wise using a custom Triton GPU kernel and compares the performance with a PyTorch implementation. A benchmarking function is included to measure the average execution time for each method.
 
 ## Overview
 
-- **Triton kernel:** ustom GPU kernel that divides the input vectors into blocks and performs element‑wise addition.
+- **Triton kernel:** custom GPU kernel that divides the input vectors into blocks and performs element‑wise addition.
 - **PyTorch implementation:** simple vector addition using PyTorch’s built‑in tensor operations.
 - **Benchmarking function:** helper function that performs warm‑up runs and measures the average execution time over several iterations.
 
