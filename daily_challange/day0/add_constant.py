@@ -56,38 +56,7 @@ def constant_add_triton(x: torch.Tensor, constant: float) -> torch.Tensor:
     return y
 
 # ------------------------------------------------------------------------------
-# Benchmarking Function
-# ------------------------------------------------------------------------------
-
-def benchmark(func, *args, n_warmup=10, n_iters=100):
-    """
-    Benchmarks a function by running warm-up iterations followed by timed iterations.
-    
-    Args:
-        func (callable): The function to benchmark.
-        *args: Arguments to pass to the function.
-        n_warmup (int): Number of warm-up iterations.
-        n_iters (int): Number of iterations for timing.
-    
-    Returns:
-        float: Average execution time per iteration in milliseconds.
-    """
-    # Warm-up runs to allow for any initial overhead (e.g., CUDA context setup)
-    for _ in range(n_warmup):
-        func(*args)
-    torch.cuda.synchronize()  # Ensure warm-up runs are complete
-
-    start = time.perf_counter()
-    for _ in range(n_iters):
-        func(*args)
-    torch.cuda.synchronize()  # Wait for all GPU operations to finish
-    end = time.perf_counter()
-    
-    avg_time_ms = (end - start) / n_iters * 1000
-    return avg_time_ms
-
-# ------------------------------------------------------------------------------
-# Main: Test and Benchmark the Constant Add Kernel
+# Main: Test Constant Add Kernel
 # ------------------------------------------------------------------------------
 
 if __name__ == '__main__':
@@ -107,7 +76,3 @@ if __name__ == '__main__':
         print("Success: Triton kernel result matches PyTorch result!")
     else:
         print("Error: The results do not match.")
-
-    # Benchmark the Triton kernel.
-    triton_time = benchmark(constant_add_triton, x, constant)
-    print(f"Average execution time (Triton): {triton_time:.3f} ms")
