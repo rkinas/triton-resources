@@ -27,6 +27,7 @@ The goal of this repository is to help you (and others) get comfortable with Tri
 | #1          | [Constant add](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day0)      | This challenge is the first puzzle in our Daily Triton Challenge series. The goal is to write a Triton kernel that adds a constant value to each element of a vector. |
 | #2          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Simple example of how to add two vectors using a custom GPU kernel written in Triton and compares the result to a standard PyTorch implementation.  |
 | #3          | [Add two vectors with speed benchmarking](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day2)      | This is almost the same as #2 but we meaesure kernel execution speed and compare it to Pytorch implementation.|
+| #4          | [ReLU Activation with Triton](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day3)      | In this challenge, you will implement the ReLU (Rectified Linear Unit) activation function using Triton. ReLU is defined as: ReLU(x)=max(0,x)|
 
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
