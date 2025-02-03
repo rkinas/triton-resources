@@ -1,4 +1,4 @@
-# Puzzle 2: ReLU Activation with Triton
+# Puzzle 4: ReLU Activation with Triton
 
 In this challenge, you will implement the ReLU (Rectified Linear Unit) activation function using Triton. ReLU is defined as:
 
