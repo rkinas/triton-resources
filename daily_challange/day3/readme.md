@@ -2,9 +2,7 @@
 
 In this challenge, you will implement the ReLU (Rectified Linear Unit) activation function using Triton. ReLU is defined as:
 
-\[
-\text{ReLU}(x) = \max(0, x)
-\]
+ReLU(x)=max(0,x)
 
 For each element in the input vector, the kernel computes the maximum between the element and 0. This example compares the custom Triton implementation to PyTorch’s built-in ReLU, and it also includes a benchmarking function for performance measurement.
 
