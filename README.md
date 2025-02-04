@@ -28,6 +28,7 @@ The goal of this repository is to help you (and others) get comfortable with Tri
 | #2          | [Add two vectors](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day1)      | Simple example of how to add two vectors using a custom GPU kernel written in Triton and compares the result to a standard PyTorch implementation.  |
 | #3          | [Add two vectors with speed benchmarking](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day2)      | This is almost the same as #2 but we meaesure kernel execution speed and compare it to Pytorch implementation.|
 | #4          | [ReLU Activation with Triton](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day3)      | In this challenge, you will implement the ReLU (Rectified Linear Unit) activation function using Triton. ReLU is defined as: ReLU(x)=max(0,x)|
+| #5          | [ReLU Activation forward and backward](https://github.com/rkinas/triton-resources/tree/main/daily_challange/day4)      | In this challenge, you will implement the ReLU activation function in a way that is fully compatible with PyTorch’s autograd. That means you’ll write a custom autograd function that uses a Triton kernel for the forward pass (computing y = max(0, x)) and a second Triton kernel for the backward pass (computing the gradient of ReLU, where grad_input = grad_output if x > 0 and 0 otherwise). |
 
 ## Articles
 Gain deeper insights into Triton through these detailed articles:
