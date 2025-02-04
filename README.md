@@ -105,6 +105,7 @@ Explore practical implementations with these sample kernels:
 - [LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance](https://github.com/ModelTC/lightllm/tree/main/lightllm/common/basemodel/triton_kernel)
 - [Bitsandbytes - ibrary is a lightweight Python wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and 8 & 4-bit quantization functions](https://github.com/bitsandbytes-foundation/bitsandbytes/tree/main/bitsandbytes/triton)
 - [MInference Triton Kernels - FlashAttention ](https://github.com/microsoft/MInference)
+- [GridQuant](https://github.com/niconunezz/GridQuant)This repository tries to implements the ideas presented in the blog post "Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton". Designed specifically for NVIDIA H100 GPUs, it leverages advanced features like float8 computation, Triton's high-performance GPU programming capabilities, and the Tensor Memory Accelerator (TMA).
   
 ## Triton integrations 
 - [jax-triton](https://github.com/jax-ml/jax-triton)
