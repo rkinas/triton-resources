@@ -1,4 +1,4 @@
-# Puzzle 4: Autograd-Compatible ReLU with Triton
+# Puzzle 5: Autograd-Compatible ReLU with Triton
 
 In this challenge, you will implement the ReLU activation function in a way that is fully compatible with PyTorch’s autograd. That means you’ll write a custom autograd function that uses a Triton kernel for the forward pass (computing `y = max(0, x)`) and a second Triton kernel for the backward pass (computing the gradient of ReLU, where `grad_input = grad_output` if `x > 0` and `0` otherwise).
 
