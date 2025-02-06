@@ -50,6 +50,7 @@ Gain deeper insights into Triton through these detailed articles:
 - [Towards Agile Development of Efficient Deep Learning Operators](https://www.jokeren.tech/slides/triton_intel.pdf)
 - [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
 - [CUDA-Free Inference for LLMs](https://pytorch.org/blog/cuda-free-inference-for-llms/)
+- [OpenAI Triton on NVIDIA Blackwell Boosts AI Performance and Programmability](https://developer.nvidia.com/blog/openai-triton-on-nvidia-blackwell-boosts-ai-performance-and-programmability/) - Triton compiler now supports the NVIDIA Blackwell architecture.
 
 ## Research Papers
 Explore the academic foundation of Triton:
