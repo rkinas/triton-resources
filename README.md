@@ -53,6 +53,7 @@ Gain deeper insights into Triton through these detailed articles:
 - [Enabling advanced GPU features in PyTorch - Warp Specialization](https://pytorch.org/blog/warp-specialization/) - Fully automated Triton warp specialization in Triton.
 
 ## Blackwell and Triton 
+- [Accelerating the Future: Triton on Blackwell Architecture](https://www.youtube.com/watch?v=RW2-HtWaOS0)
 - [OpenAI Triton on NVIDIA Blackwell Boosts AI Performance and Programmability](https://developer.nvidia.com/blog/openai-triton-on-nvidia-blackwell-boosts-ai-performance-and-programmability/) - Triton compiler now supports the NVIDIA Blackwell architecture.
 - [Running PyTorch and Triton on the RTX 5080](https://webstorms.github.io/2025/02/06/5080-install.html)
 
