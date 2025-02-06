@@ -50,7 +50,11 @@ Gain deeper insights into Triton through these detailed articles:
 - [Towards Agile Development of Efficient Deep Learning Operators](https://www.jokeren.tech/slides/triton_intel.pdf)
 - [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
 - [CUDA-Free Inference for LLMs](https://pytorch.org/blog/cuda-free-inference-for-llms/)
+- [Enabling advanced GPU features in PyTorch - Warp Specialization](https://pytorch.org/blog/warp-specialization/) - Fully automated Triton warp specialization in Triton.
+
+## Blackwell and Triton 
 - [OpenAI Triton on NVIDIA Blackwell Boosts AI Performance and Programmability](https://developer.nvidia.com/blog/openai-triton-on-nvidia-blackwell-boosts-ai-performance-and-programmability/) - Triton compiler now supports the NVIDIA Blackwell architecture.
+- [Running PyTorch and Triton on the RTX 5080](https://webstorms.github.io/2025/02/06/5080-install.html)
 
 ## Research Papers
 Explore the academic foundation of Triton:
@@ -107,7 +111,7 @@ Explore practical implementations with these sample kernels:
 - [Bitsandbytes - ibrary is a lightweight Python wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and 8 & 4-bit quantization functions](https://github.com/bitsandbytes-foundation/bitsandbytes/tree/main/bitsandbytes/triton)
 - [MInference Triton Kernels - FlashAttention ](https://github.com/microsoft/MInference)
 - [GridQuant](https://github.com/niconunezz/GridQuant) - This repository tries to implements the ideas presented in the blog post "Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton". Designed specifically for NVIDIA H100 GPUs, it leverages advanced features like float8 computation, Triton's high-performance GPU programming capabilities, and the Tensor Memory Accelerator (TMA).
-- [Enabling advanced GPU features in PyTorch - Warp Specialization](https://pytorch.org/blog/warp-specialization/) - Fully automated Triton warp specialization in Triton.
+
   
 ## Triton integrations 
 - [jax-triton](https://github.com/jax-ml/jax-triton)
