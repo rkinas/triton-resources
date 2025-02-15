@@ -51,6 +51,7 @@ Gain deeper insights into Triton through these detailed articles:
 - [Developing Triton Kernels on AMD GPUs](https://rocm.blogs.amd.com/artificial-intelligence/triton/README.html)
 - [CUDA-Free Inference for LLMs](https://pytorch.org/blog/cuda-free-inference-for-llms/)
 - [Enabling advanced GPU features in PyTorch - Warp Specialization](https://pytorch.org/blog/warp-specialization/) - Fully automated Triton warp specialization in Triton.
+- [Teaching AI to Write GPU Code: A Deep Dive into Reinforcement Fine-Tuning](https://predibase.com/blog/teaching-ai-to-write-gpu-code-a-deep-dive-into-reinforcement-fine-tuning)
 
 ## Blackwell and Triton 
 - [Accelerating the Future: Triton on Blackwell Architecture](https://www.youtube.com/watch?v=RW2-HtWaOS0)
