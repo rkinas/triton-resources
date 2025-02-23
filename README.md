@@ -87,6 +87,7 @@ Enhance your Triton development workflow with these tools:
 - [Triton-Viz: A Visualization Toolkit for Programming with Triton](https://github.com/Deep-Learning-Profiling-Tools/triton-viz)
 - [Make Triton easier - Triton-util provides simple higher-level abstractions for frequent but repetitive tasks. This allows you to write code that is closer to how you actually think.](https://github.com/UmerHA/triton_util/tree/main)
 - [TritonBench is a collection of PyTorch operators used to evaluation the performance of Triton, and its integration with PyTorch.](https://github.com/pytorch-labs/tritonbench)
+- [TritonBench features two distinct channels: TritonBench-G and TritonBench-T, each with its own evaluation framework.](https://github.com/thunlp/TritonBench)
 
 ## Conferences
 Catch up on the latest advancements from Triton Conferences:
@@ -113,6 +114,7 @@ Explore practical implementations with these sample kernels:
 - [Bitsandbytes - ibrary is a lightweight Python wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and 8 & 4-bit quantization functions](https://github.com/bitsandbytes-foundation/bitsandbytes/tree/main/bitsandbytes/triton)
 - [MInference Triton Kernels - FlashAttention ](https://github.com/microsoft/MInference)
 - [GridQuant](https://github.com/niconunezz/GridQuant) - This repository tries to implements the ideas presented in the blog post "Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton". Designed specifically for NVIDIA H100 GPUs, it leverages advanced features like float8 computation, Triton's high-performance GPU programming capabilities, and the Tensor Memory Accelerator (TMA).
+- [Efficient Triton implementations for Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention.](https://github.com/fla-org/native-sparse-attention)
 
   
 ## Triton integrations 
