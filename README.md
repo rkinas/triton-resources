@@ -70,6 +70,7 @@ Learn by watching these informative videos:
 - [Triton Vector Addition Kernel, part 1: Making the Shift to Parallel Programming](https://www.youtube.com/watch?v=MEZ7XhzTLEg&t)
 - [Tiled Matrix Multiplication in Triton - part 1](https://www.youtube.com/watch?v=OnZEBBJvWLU)
 - [Flash Attention derived and coded from first principles with Triton (Python)](https://www.youtube.com/watch?v=zy8ChVd_oTM)
+- [Triton GPU Kernels 101](https://www.youtube.com/playlist?list=PLPefVKO3tDxOJLAmCA75uShbe1z_RNqkQ)
 
 ## Triton community meetup
 Watch Triton community meetups to be up to date with Triton recent topics.
