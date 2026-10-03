@@ -52,6 +52,7 @@ Gain deeper insights into Triton through these detailed articles:
 - [CUDA-Free Inference for LLMs](https://pytorch.org/blog/cuda-free-inference-for-llms/)
 - [Enabling advanced GPU features in PyTorch - Warp Specialization](https://pytorch.org/blog/warp-specialization/) - Fully automated Triton warp specialization in Triton.
 - [Teaching AI to Write GPU Code: A Deep Dive into Reinforcement Fine-Tuning](https://predibase.com/blog/teaching-ai-to-write-gpu-code-a-deep-dive-into-reinforcement-fine-tuning)
+- [Weekly Triton kernels, benchmarked against PyTorch](https://dh8116.github.io/blog) - One kernel a week (fused softmax, flash attention, matmul, RMSNorm, RoPE, fused cross-entropy, fused linear + cross-entropy, fused SwiGLU), each measured against PyTorch on a T4, including where PyTorch wins. [Code](https://github.com/dh8116/triton-kernels)
 
 ## Blackwell and Triton 
 - [Accelerating the Future: Triton on Blackwell Architecture](https://www.youtube.com/watch?v=RW2-HtWaOS0)
