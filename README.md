@@ -116,6 +116,7 @@ Explore practical implementations with these sample kernels:
 - [MInference Triton Kernels - FlashAttention ](https://github.com/microsoft/MInference)
 - [GridQuant](https://github.com/niconunezz/GridQuant) - This repository tries to implements the ideas presented in the blog post "Accelerating 2D Dynamic Block Quantized Float8 GEMMs in Triton". Designed specifically for NVIDIA H100 GPUs, it leverages advanced features like float8 computation, Triton's high-performance GPU programming capabilities, and the Tensor Memory Accelerator (TMA).
 - [Efficient Triton implementations for Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention.](https://github.com/fla-org/native-sparse-attention)
+- [nbxtensor: a tensor library for inference built on Triton kernels, with kernel settings certified per GPU class against a float64 reference (runs models without PyTorch, down to V100 tensor cores).](https://github.com/NeuroBrix/nbxtensor)
 
   
 ## Triton integrations 
